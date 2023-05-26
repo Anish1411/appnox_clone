@@ -1,8 +1,7 @@
 import React from "react";
-import Logo from "../../image/Gmail_Logo.png"
 import "./header.css"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCaretDown, faCircle, faGear, faMagnifyingGlass, faShuffle, faXmark, faGrip, faUser } from "@fortawesome/free-solid-svg-icons";
+import { faCaretDown, faCircle, faGear, faMagnifyingGlass, faShuffle, faXmark, faGrip } from "@fortawesome/free-solid-svg-icons";
 import Side2 from "../Third-Side/Side2";
 import Side3 from "../fourth-side/Side3";
 

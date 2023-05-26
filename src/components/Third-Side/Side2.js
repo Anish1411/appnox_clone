@@ -1,7 +1,7 @@
 import React from "react";
 import "./Side2.css"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faArrowLeft, faCaretDown, faUser } from "@fortawesome/free-solid-svg-icons";
+import { faCaretDown, faUser } from "@fortawesome/free-solid-svg-icons";
 import first from "../../image/first.png"
 import second from "../../image/second.png"
 import third from "../../image/third.png"

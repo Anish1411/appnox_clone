@@ -3,8 +3,7 @@ import logo from "../../image/Gmail_Logo.png"
 import "./Side1.css"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Dropdown, DropdownButton } from 'react-bootstrap'
-import { faPen, faInbox, faStar, faClock, faFile, faPaperPlane, faCaretDown, faTag, faAngleDown } from "@fortawesome/free-solid-svg-icons";
+import { faPen, faCaretDown, faAngleDown } from "@fortawesome/free-solid-svg-icons";
 import first from "../../image/side1_1.png"
 import sec from "../../image/side1_2.png"
 import third from "../../image/ninth.png"

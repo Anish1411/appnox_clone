@@ -1,6 +1,6 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBars, faEnvelope, faMessage, faUsers, faVideo } from "@fortawesome/free-solid-svg-icons";
+import { faBars } from "@fortawesome/free-solid-svg-icons";
 import first from "../../image/eighth.png"
 import sec from "../../image/side_2.png"
 import third from "../../image/side1_7.png"
