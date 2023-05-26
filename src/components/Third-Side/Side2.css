@@ -1,0 +1,230 @@
+.side2 .icons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    padding-right: 35px;
+}
+
+.icons img {
+    width: 22px;
+}
+
+.leftIcon {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.rightIcon {
+    display: flex;
+    align-items: center;
+}
+
+.side2 p {
+    margin-bottom: 0;
+}
+
+.hr {
+    margin: 10px 20px 0 10px;
+    color: gray;
+}
+
+.userBar {
+    display: flex;
+    justify-content: space-between;
+    padding: 22px;
+}
+
+.leftUser {
+    display: flex;
+}
+
+.mailTo {
+    margin-left: 10px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.subs {
+    border-bottom: 1px solid gray;
+}
+
+.rightUser {
+    display: flex;
+    width: 28%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.users {
+    background-color: #ebedf0;
+    padding: 15px 16px;
+    border-radius: 100%;
+    font-size: 22px;
+    color: lightGray;
+}
+
+.rightUser img {
+    width: 28px;
+    height: 28px;
+    margin-top: -6px;
+}
+
+/* Media Queries */
+
+@media (max-width: 768px) {
+    .side2 .icons {
+        padding-right: 20px;
+    }
+
+    .leftIcon {
+        width: 60%;
+    }
+
+    .rightUser {
+        width: 40%;
+    }
+
+    .leftUser {
+        width: 350px;
+    }
+
+    .leftUser p {
+        font-size: 15px;
+        line-height: 1.3;
+    }
+
+    .users {
+        padding: 12px 13px;
+        font-size: 14px;
+        margin-top: 0px;
+        margin-left: -10px;
+    }
+
+    .rightUser p {
+        width: 200px;
+    }
+}
+
+@media (max-width: 540px) {
+    .leftUser p {
+        font-size: 12px;
+        margin-top: 2px;
+    }
+
+    .rightUser p {
+        font-size: 14px;
+    }
+
+    .rightUser img {
+        width: 23px;
+        height: 24px;
+    }
+}
+
+@media (max-width: 450px) {
+    .rightIcon {
+        margin-left: 150px;
+        width: 50%;
+        font-size: 15px;
+    }
+
+    .leftIcon {
+        margin-left: 10px;
+    }
+
+    .icons .leftIcon img {
+        width: 18px;
+        height: 20px;
+        margin-right: 5px;
+
+    }
+
+    .rightIcon p {
+        width: 58px;
+    }
+
+    .users {
+        padding: 9px 10px;
+        font-size: 12px;
+        margin-top: -6px;
+        margin-left: -10px;
+    }
+
+    .rightUser p {
+        width: 180px;
+        font-size: 10px;
+        /* margin-left: 40px; */
+
+    }
+
+    .rightUser img {
+        width: 20px;
+        height: 21px;
+    }
+
+    .mailTo {
+        width: 250px;
+    }
+
+    .mailTo p {
+        font-size: 10px;
+        line-height: 0;
+    }
+
+    .rightUser {
+        margin-left: 40px;
+    }
+}
+
+@media (max-width: 360px) {
+
+    .side2 .icons {
+        margin-left: 25px;
+    }
+
+    .rightIcon {
+        margin-left: 180px;
+    }
+
+    .rightUser {
+        margin-left: 70px;
+    }
+
+    .rightUser p {
+        width: 80px;
+        font-size: 10px;
+        /* margin-left: 40px; */
+
+    }
+
+    .rightUser img {
+        width: 18px;
+        height: 19px;
+    }
+}
+
+@media (max-width: 280px) {
+    .leftIcon {
+        margin-top: 3px;
+        margin-left: 25px;
+
+    }
+
+    .leftIcon img {
+        width: 10px;
+    }
+
+    .rightIcon {
+        margin-top: 3px;
+        margin-left: 160px;
+    }
+
+    .mailTo {
+        width: 225px;
+    }
+
+
+}

@@ -1,0 +1,361 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.header {
+    display: flex;
+    margin-top: 15px;
+}
+
+.header p {
+    margin-bottom: 0;
+}
+
+.search_bar {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    background-color: #EAF1FB;
+    padding: 15px 25px;
+    border-radius: 15px;
+}
+
+.left-search-div {
+    display: flex;
+    align-items: center;
+}
+
+.left-search-div p {
+    margin-left: 15px;
+    font-size: 21px;
+    margin-top: -2px;
+}
+
+.header .icons {
+    margin-left: 15px;
+}
+
+.right-head {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    margin-left: 25px;
+    justify-content: space-evenly;
+}
+
+.active-div {
+    padding: 12px 20px;
+    border: 1px solid black;
+    border-radius: 25px;
+    display: flex;
+}
+
+.active-div p {
+    margin: 0 10px;
+}
+
+.que {
+    border: 1px solid grey;
+    border-radius: 100%;
+    padding: 3px 10px;
+}
+
+.user {
+    background-color: lightBlue;
+    padding: 10px 16px;
+    border-radius: 100%;
+    color: rgb(255, 255, 255);
+}
+
+.allIcons {
+    color: gray;
+    font-size: 1.2rem;
+}
+
+/* Media Queries */
+
+@media (max-width: 1280px) {
+    .right-head {
+        width: 50%;
+    }
+
+    .allIcons {
+        font-size: 1.1rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .header {
+        margin-right: 80px;
+    }
+
+    .search_bar {
+        width: 100%;
+        padding: 10px 20px;
+    }
+
+    .left-search-div p {
+        font-size: 15px;
+    }
+
+    .right-head {
+        width: 5%;
+        margin-left: 100px;
+    }
+
+    .active-div {
+        padding: 4px 10px;
+        align-items: center;
+        margin-right: 8px;
+    }
+
+    .active-div p {
+        font-size: 12px;
+        margin-top: 4px;
+    }
+
+    .que {
+        font-size: 18px;
+        padding: 0px 8px;
+    }
+
+    .allIcons {
+        font-size: 0.7rem;
+    }
+
+    .serach-icons {
+        font-size: 15px;
+        margin-left: 8px;
+    }
+
+    .user {
+        font-size: 15px;
+        padding: 5px 10px;
+        margin-left: 8px;
+    }
+}
+
+@media (max-width: 540px) {
+    .header {
+        /* margin-right: 80px; */
+    }
+
+    .search_bar {
+        width: 100%;
+        padding: 10px 20px;
+    }
+
+    .left-search-div p {
+        font-size: 15px;
+    }
+
+    .right-head {
+        margin-left: 100px;
+        width: 5%;
+    }
+
+    .active-div {
+        padding: 4px 8px;
+        margin-right: 5px;
+    }
+
+    .active-div p {
+        font-size: 11px;
+        margin-top: 3px;
+    }
+
+    .que {
+        font-size: 16px;
+        padding: 1px 8px;
+    }
+
+    .allIcons {
+        font-size: 14px;
+    }
+
+    .serach-icons {
+        font-size: 14px;
+        margin-left: 5px;
+    }
+
+    .user {
+        font-size: 14px;
+        padding: 3px 8px;
+        margin-left: 5px;
+    }
+}
+
+@media (max-width: 450px) {
+    .header {
+        margin-right: 0;
+    }
+
+    .search_bar {
+        padding: 5px 20px;
+        width: 100%;
+    }
+
+    .left-search-div {
+        margin-bottom: 10px;
+        width: 100%;
+    }
+
+    .left-search-div p {
+        margin-left: 8px;
+        margin-top: 5px;
+        font-size: 16px;
+    }
+
+
+
+    .right-head {
+        /* flex-direction: column; */
+        align-items: flex-start;
+        /* width: %; */
+        /* margin-left: 90px; */
+        margin-top: 10px;
+    }
+
+    .active-div {
+        margin-left: 20px;
+        padding: 5px 10px;
+        margin-right: 5px;
+        margin-top: -4px;
+    }
+
+    .active-div p {
+        font-size: 12px;
+    }
+
+    .que {
+        font-size: 16px;
+    }
+
+    .allIcons {
+        font-size: 13px;
+        margin-top: 8px;
+    }
+
+    .right-search-div {
+        display: flex;
+        /* align-items: center; */
+        margin-top: 4px;
+    }
+
+    .serach-icons {
+        margin-left: 5px;
+    }
+
+    .user {
+        padding: 3px 8px;
+        margin-left: 5px;
+    }
+}
+
+@media (max-width: 360px) {
+    .search_bar {
+        width: 100%;
+        padding: 5px 20px;
+    }
+
+    .left-search-div p {
+        font-size: 14px;
+    }
+
+    .right-search-div {
+        display: flex;
+        align-items: center;
+    }
+
+    .right-head {
+        margin-left: 60px;
+        width: 2%;
+    }
+
+    .active-div {
+        padding: 6px 8px;
+        margin-left: 100px;
+        margin-right: 8px;
+    }
+
+    .active-div p {
+        font-size: 11px;
+        margin-top: 3px;
+    }
+
+    .que {
+        font-size: 14px;
+        padding: 2px 6px;
+        margin-top: 4px;
+        /* margin-left: 8px; */
+    }
+
+    .allIcons {
+        font-size: 12px;
+        margin-top: 9px;
+        margin-right: 8px;
+        margin-left: 2px;
+    }
+
+    .serach-icons {
+        font-size: 14px;
+        margin-left: 5px;
+    }
+
+    .user {
+        font-size: 14px;
+        padding: 4px 8px;
+        margin-left: 5px;
+        margin-top: 4px;
+    }
+}
+
+@media (max-width: 300px) {
+    .search_bar {
+        padding: 5px 14px;
+    }
+
+    .left-search-div p {
+        font-size: 15px;
+    }
+
+    .right-search-div {
+        margin-top: -8px;
+    }
+
+    .right-head {
+        margin-left: 8px;
+    }
+
+    .active-div {
+        padding: 4px 6px;
+        margin-left: 180px;
+    }
+
+    .active-div p {
+        font-size: 10px;
+        margin: 5px 2px;
+    }
+
+    .que {
+        font-size: 12px;
+        padding: 2px 4px;
+    }
+
+    .allIcons {
+        font-size: 12px;
+    }
+
+    .serach-icons {
+        font-size: 12px;
+        margin-left: 4px;
+    }
+
+    .user {
+        font-size: 12px;
+        padding: 3px 6px;
+        margin-left: 4px;
+    }
+}

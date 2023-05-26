@@ -1,0 +1,190 @@
+.Side1 p {
+    margin-bottom: 0;
+    margin-left: 8px;
+}
+
+.Side1 {
+    padding: 25px;
+    background-color: #F6F8FC;
+    width: 23%;
+    height: 163vh;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 15%;
+}
+
+.logo p {
+    font-size: 20px;
+}
+
+.compose {
+    display: flex;
+    margin-top: 30px;
+    background-color: #C2E7FF;
+    width: 60%;
+    padding: 13px 30px;
+    border-radius: 15px;
+    align-items: center;
+    justify-content: center;
+}
+
+.upperOption {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.options img {
+    width: 20px;
+}
+
+/* .pen {
+    font-size: 70%;
+} */
+
+.items3,
+.label {
+    display: flex;
+    justify-content: space-between;
+}
+
+.items2 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.category {
+    display: flex;
+    align-items: center;
+    margin-left: 0;
+}
+
+.category .icon1 {
+    margin-right: 5px;
+}
+
+.categoryOption {
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+.more {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.label {
+    margin-top: 25px;
+}
+
+/* Media Queries */
+@media (max-width: 1280px) {
+    .Side1 {
+        width: 20%;
+    }
+
+    .logo img {
+        width: 30%;
+    }
+
+    .logo p {
+        font-size: 15px;
+    }
+
+    .options p,
+    .compose p {
+        font-size: 10px;
+    }
+
+    .compose {
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .Side1 {
+        width: 30%;
+    }
+
+    .logo img {
+        width: 22%;
+    }
+
+    .logo p {
+        font-size: 16px;
+    }
+
+    .options p,
+    .compose p {
+        font-size: 12px;
+    }
+
+    .compose {
+        width: 80%;
+    }
+}
+
+@media (max-width: 540px) {
+    .Side1 {
+        width: 45%;
+    }
+
+    .compose {
+        width: 70%;
+    }
+}
+
+@media (max-width: 480px) {
+    .Side1 {
+        width: 45%;
+    }
+
+    .logo img {
+        width: 30%;
+    }
+
+    .logo p {
+        font-size: 15px;
+    }
+
+    .options p,
+    .compose p {
+        font-size: 10px;
+    }
+
+    .compose {
+        width: 100%;
+    }
+}
+
+@media (max-width: 360px) {
+    .Side1 {
+        width: 50%;
+    }
+
+    .logo img {
+        width: 32%;
+    }
+
+    .logo p {
+        font-size: 16px;
+    }
+
+    .options p,
+    .compose p {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 340px) {
+    .Side1 {
+        width: 70%;
+    }
+}

@@ -1,23 +1,18 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import Header from './components/Header/header';
+import Side from './components/First-SideBar/Side';
+import Side1 from './components/Second-Side/Side1';
+import Side2 from './components/Third-Side/Side2';
+import Mixed from './components/mixed';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+      <Side />
+      <Side1 />
+      <Mixed />
     </div>
   );
 }
