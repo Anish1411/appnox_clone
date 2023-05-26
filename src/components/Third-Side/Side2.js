@@ -24,21 +24,21 @@ function Side2() {
         <div className="side2">
             <div className="icons">
                 <div className="leftIcon">
-                    <img src={sixth} alt="image" />
-                    <img src={second} alt="image" />
-                    <img src={first} alt="image" />
-                    <img src={seventh} alt="image" />
-                    <img src={eighth} alt="image" />
-                    <img src={ninth} alt="image" />
-                    <img src={third} alt="image" />
-                    <img src={fourth} alt="image" />
-                    <img src={fifth} alt="image" />
-                    <img src={tenth} alt="image" />
+                    <img src={sixth} alt="side2Icon" />
+                    <img src={second} alt="side2Icon" />
+                    <img src={first} alt="side2Icon" />
+                    <img src={seventh} alt="side2Icon" />
+                    <img src={eighth} alt="side2Icon" />
+                    <img src={ninth} alt="side2Icon" />
+                    <img src={third} alt="side2Icon" />
+                    <img src={fourth} alt="side2Icon" />
+                    <img src={fifth} alt="side2Icon" />
+                    <img src={tenth} alt="side2Icon" />
                 </div>
                 <div className="rightIcon">
                     <p>31 of 38</p>
-                    <img src={eleventh} alt="image" />
-                    <img src={twelth} alt="image" />
+                    <img src={eleventh} alt="side2Icon" />
+                    <img src={twelth} alt="side2Icon" />
                 </div>
             </div>
             <hr className="hr" />
@@ -54,9 +54,9 @@ function Side2() {
                 </div>
                 <div className="rightUser">
                     <p>oct 13, 2021, 8:27 PM</p>
-                    <img src={thirteen} alt="image" />
-                    <img src={fourteen} alt="image" />
-                    <img src={tenth} alt="image" />
+                    <img src={thirteen} alt="side2Icon" />
+                    <img src={fourteen} alt="side2Icon" />
+                    <img src={tenth} alt="side2Icon" />
                 </div>
 
 

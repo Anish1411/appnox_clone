@@ -16,19 +16,19 @@ function Side() {
                 </div>
                 <div className="divBottom">
                     <div className="icons1">
-                        <img src={first} alt="image" />
+                        <img src={first} alt="icons" />
                         <p className="SideBar1Text"> Mail</p>
                     </div>
                     <div className="icons1">
-                        <img src={sec} alt="image" />
+                        <img src={sec} alt="icons" />
                         <p className="SideBar1Text"> Chat</p>
                     </div>
                     <div className="icons1">
-                        <img src={third} alt="image" />
+                        <img src={third} alt="icons" />
                         <p className="SideBar1Text"> Spaces</p>
                     </div>
                     <div className="icons1">
-                        <img src={four} alt="image" />
+                        <img src={four} alt="icons" />
                         <p className="SideBar1Text"> Meet</p>
                     </div>
                 </div>
