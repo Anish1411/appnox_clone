@@ -26,7 +26,7 @@ function Side3() {
                     </div>
 
                     <div className="cbo">
-                        <img src={owner} />
+                        <img src={owner} alt="owner" />
                         <div className="cboDetails">
                             <p className="ownerName">Shailendra Sharma</p>
                             <p>CBO</p>

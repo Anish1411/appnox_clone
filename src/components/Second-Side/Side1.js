@@ -21,7 +21,7 @@ function Side1() {
     return (
         <div className="Side1">
             <div className="logo">
-                <img src={logo} />
+                <img src={logo} alt="image" />
                 <p>Gmail</p>
             </div>
             <div className="compose">
@@ -32,30 +32,30 @@ function Side1() {
                 <div className="upperOption">
                     <div className="items3">
                         <div className="items2">
-                            <img src={first} />
+                            <img src={first} alt="image" />
                             <p> Inbox</p>
                         </div>
                         <p>21,990</p>
                     </div>
                     <div className="items2">
-                        <img src={sec} />
+                        <img src={sec} alt="image" />
                         <p>Star</p>
                     </div>
                     <div className="items2">
-                        <img src={third} />
+                        <img src={third} alt="image" />
                         <p> Snoozed</p>
                     </div>
                     <div className="items2">
-                        <img src={four} />
+                        <img src={four} alt="image" />
                         <p> Important</p>
                     </div>
                     <div className="items2">
-                        <img src={five} />
+                        <img src={five} alt="image" />
                         <p> Sent</p>
                     </div>
                     <div className="items3">
                         <div className="items2">
-                            <img src={six} />
+                            <img src={six} alt="image" />
                             <p> Drafts</p>
                         </div>
                         <p>21,990</p>
@@ -64,7 +64,7 @@ function Side1() {
                 <div className="category">
                     <div className="icon">
                         <FontAwesomeIcon className="icon1" icon={faCaretDown} />
-                        <img src={seven} />
+                        <img src={seven} alt="image" />
                     </div>
 
                     <p> Categories</p>
@@ -72,28 +72,28 @@ function Side1() {
                 <div className="categoryOption">
                     <div className="items3">
                         <div className="items2">
-                            <img src={eight} />
+                            <img src={eight} alt="image" />
                             <p> Inbox</p>
                         </div>
                         <p>21,990</p>
                     </div>
                     <div className="items3">
                         <div className="items2">
-                            <img src={nine} />
+                            <img src={nine} alt="image" />
                             <p> Inbox</p>
                         </div>
                         <p>21,990</p>
                     </div>
                     <div className="items3">
                         <div className="items2">
-                            <img src={ten} />
+                            <img src={ten} alt="image" />
                             <p> Inbox</p>
                         </div>
                         <p>21,990</p>
                     </div>
                     <div className="items3">
                         <div className="items2">
-                            <img src={eleven} />
+                            <img src={eleven} alt="image" />
                             <p> Inbox</p>
                         </div>
                         <p>21,990</p>
